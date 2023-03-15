@@ -1,0 +1,18 @@
+*Down nodemon
+    glad "-g" : lưu global trên user máy tính
+    glad "--save-dev": Nó chỉ có gia trị use khi dev còn khi chạy thật cho khách thì không cần tải
+    cung cấp thêm inpector
+*Git
+    Add git repository- video 7
+*Morgan 
+    cho phép quan sát các log, request đc gởi từ client đến node server
+*Chèn html trong js
+    đặt đoạn html trong dấu ``
+*Express handlebars
+    Khi cài dặt thư viện này phải sửa lại đường dẫn đến thư mục views-path.join()
+*File tĩnh-static
+    khi truy cập url, server sẽ kiểm tra nó có phải file tĩnh ko nếu đúng thì sẽ trả về
+*problem đồng bộ giữa các file _variable->app.scss->css
+    file app.css chỉ đc cấu hình để cập nhật khi app.scss thay đổi nên khi _variable thay
+    đổi thì file app.css ko thay đổi đc, solution: cấu hình script -node-sass
+    
