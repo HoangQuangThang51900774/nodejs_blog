@@ -15,4 +15,8 @@
 *problem đồng bộ giữa các file _variable->app.scss->css
     file app.css chỉ đc cấu hình để cập nhật khi app.scss thay đổi nên khi _variable thay
     đổi thì file app.css ko thay đổi đc, solution: cấu hình script -node-sass
-    
+*Forms default behavior
+    khi trình duyệt gởi một req thì nó dùng phương thức get nhưng khi submit một Forms
+    phương thức post thì nó sẽ submit tại chính url này và chuyển method là post
+    Hành vi mặc định của form là submit với thương thứ là get tại chính
+    địa chỉ url của nó
