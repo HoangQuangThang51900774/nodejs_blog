@@ -1,8 +1,23 @@
 @import 'variables';
-h2 {
-    color: $blue-color;
+
+.card-item {
+    margin-top: 16px;
 }
 
-h1 {
-    color: $blue-color;
+.card-img-top {
+    height: 250px;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+// .card-detail{
+//     margin-right: 5px;
+// }

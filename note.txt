@@ -20,3 +20,15 @@
     phương thức post thì nó sẽ submit tại chính url này và chuyển method là post
     Hành vi mặc định của form là submit với thương thứ là get tại chính
     địa chỉ url của nó
+*Prettier/lint-staged/husky
+    Prettier: Format code theo chuẩn
+    lint-staged: chạy đc command(dòng lệnh) trên các file đc up lên git
+    husky:
+*install json viewer
+*học thêm về promise, arrow function
+*Map.( => .toObject())
+    handlebars có cấu hình bảo mật nên khó truy xuất các field của object bằng handlebarsjs
+    sử dụng map toObject() để convert sang dạng mà handlebars có thể truy xuất đcc
+*Sự khác nhau giữa truyền dữ liệu bằng query và post methob, thiết lập param cho đường dẫn(:slug)
+    -video 26-f8
+*Sử dụng linh hoạt thẻ a để điều hướng

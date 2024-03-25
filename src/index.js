@@ -3,10 +3,17 @@ var morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const path = require('path');
 const app = express();
-const port = 8080;
+const port = 8081;
 
+var a = 1
+var b = 2
+var c = a + b
 //chỉ cần gõ tên thư mục thì file index sẽ đc nạp nếu có
 const route = require('./routes');
+const db = require('./config/db')
+
+//connect to db
+db.connect();
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
@@ -27,7 +34,7 @@ app.engine(
     }),
 );
 app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, 'resources/views'));
+app.set('views', path.join(__dirname, 'resources','views'));
 
 //route init
 route(app);
